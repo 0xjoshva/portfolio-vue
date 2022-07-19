@@ -26,19 +26,21 @@
             i am an aspiring full-stack web developer, with a passion for design
             and programming.
           </p>
-          <a href="/about" id="about-link">read more</a>
+          <a href="" id="about-link">read more</a>
         </div>
       </div>
     </div>
   </section>
   <About />
+  <Portfolio />
 </template>
 
 <script>
 import About from "../components/About.vue";
+import Portfolio from "../components/Portfolio.vue";
 export default {
   name: "Home",
-  components: { About },
+  components: { About, Portfolio },
 };
 </script>
 
@@ -99,7 +101,7 @@ export default {
 }
 #image-cont {
   padding-top: 3.5rem;
-  margin-left: 35%;
+  margin-left: 25%;
 }
 
 .icons {

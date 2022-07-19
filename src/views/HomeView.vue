@@ -137,9 +137,9 @@ export default {
   padding: 10px;
   width: 190px;
   background: rgba(14, 14, 14, 0.2);
-  height: 220px;
+  height: 11rem;
   font-family: 'Montserrat', sans-serif;
-
+ line-height: 1.1rem;
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
   border: 1px solid rgba(255, 255, 255, 0.18);

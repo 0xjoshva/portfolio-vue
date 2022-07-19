@@ -1,5 +1,5 @@
 <template>
-  <section id="home">
+    <section id="home">
     <div id="home-cont">
       <div id="greeting">
         <h1 id="heading">
@@ -31,16 +31,20 @@
       </div>
     </div>
   </section>
-  <About />
-  <Portfolio />
+  <About/>
+  <Portfolio/>
+  <Experience/>
 </template>
 
 <script>
+import Home from "../components/Home.vue";
+import Experience from "../components/Experience.vue";
 import About from "../components/About.vue";
 import Portfolio from "../components/Portfolio.vue";
+
 export default {
   name: "Home",
-  components: { About, Portfolio },
+  components: { Home, About, Portfolio, Experience },
 };
 </script>
 
@@ -55,18 +59,19 @@ export default {
   text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white),
     -1px 1px 0 var(--white), 1px 1px 0 var(--white);
   font-size: 120px;
-  font-family: "Palanquin", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   display: flex;
   flex-direction: column;
   line-height: 120px;
+  padding-left: 8rem;
 }
 #fill {
   color: var(--white);
 }
 #subheading {
   color: var(--green);
-  font-family: "Palanquin", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   align-self: inherit;
 }
@@ -93,7 +98,7 @@ export default {
   box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
   -webkit-box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
   -moz-box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
-  transform: translateY(-5px);
+  transform: translate(-5px, -5px);
 }
 #home-cont {
   display: flex;
@@ -101,7 +106,7 @@ export default {
 }
 #image-cont {
   padding-top: 3.5rem;
-  margin-left: 25%;
+  margin-left: 35%;
 }
 
 .icons {
@@ -129,10 +134,11 @@ export default {
   color: var(--white);
 }
 #blurb {
-  padding: 20px;
+  padding: 10px;
   width: 190px;
   background: rgba(14, 14, 14, 0.2);
   height: 220px;
+  font-family: 'Montserrat', sans-serif;
 
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
@@ -149,7 +155,7 @@ export default {
   width: fit-content;
   text-decoration: none;
   color: var(--white);
-  padding: 2px 8px;
+  padding: 7px 8px 0px 10px;
   border: 3px solid var(--green);
   border-radius: 20px;
   transition: transform 0.2s ease-in;

@@ -29,8 +29,8 @@ nav{
   justify-content: flex-start;
   align-items: center;
   column-gap: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 13px;
   padding: 20px;
   border-bottom: 1px solid var(--dgrey);

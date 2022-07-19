@@ -1,8 +1,8 @@
 <template>
   <section id="about">
-    <marquee behaviour="scroll" direction="left" id="scroll-text"
+    <marquee behavior="alternate" direction="left" id="scroll-text"
       ><p id="scroll-p">
-        • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT •
+        • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT •
       </p></marquee
     >
 
@@ -14,6 +14,7 @@
             ><i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </div>
+        <h2 id="soft-skills">SOFT SKILLS</h2>
       </div>
 
       <div id="panel1">
@@ -58,7 +59,7 @@ export default {};
 #about {
   background: var(--bg-color);
   width: 100%;
-  height: 130vh;
+  height: 100vh;
 }
 .pwrapper {
   display: flex;
@@ -104,8 +105,8 @@ export default {};
 }
 .p1-item h3 {
   color: var(--white);
-  font-family: "Palanquin", sans-serif;
   padding: 1rem 0 0.5rem 0;
+  font-family: "Montserrat", sans-serif;
 }
 .p1-item p {
   font-family: "Roboto", sans-serif;
@@ -146,9 +147,9 @@ export default {};
   font-weight: 500;
   padding: 5px 20px 5px 20px;
   border-radius: 0px 20px 20px 0;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   transition: all 0.6s ease-in-out;
+  font-family: "Montserrat", sans-serif;
 }
 #resume-link:hover {
   /* border-right: var(--green) 2px solid;
@@ -169,6 +170,18 @@ font-weight: 400; */
   color: var(--white);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+}
+#soft-skills {
+  color: var(--bg-color);
+  text-shadow: -0.7px -0.7px 0 var(--white), 0.7px -0.7px 0 var(--white),
+    -0.7px 0.7px 0 var(--white), 0.7px 0.7px 0 var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  line-height: 20px;
+  font-weight: 900;
+  filter: opacity(0.7);
+  float: right;
+  transform: translateY(21rem);
 }
 
 marquee {

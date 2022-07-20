@@ -54,6 +54,13 @@ justify-content: center;
   border: 1px solid var(--lgrey);
   padding: 3em 8em 3em 8em;
   border-radius: 10px;
+  height: 200px;
+  background: var(--bg-color);
+  transition: all 1s ease-in-out;
+}
+.block:hover{
+  height: 400px;
+  border: 2px solid var(--green);
 }
 .block i{
 font-size: 2.4rem;

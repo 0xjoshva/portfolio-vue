@@ -12,7 +12,7 @@
       </div>
     </div>
     <div id="content-container">
-    <img src="../assets/realestate.png" alt="" id="feat-img">
+    <div id="feat-img"></div>
     <div id="container">
     <div id="feat-txt">
     <h2 id="feat-h2">Real Estate Website</h2>
@@ -26,7 +26,6 @@
       <a href="" class="btn-three"><i class="bi bi-github"></i> Github</a> -->
       
       <div id="lang">
-      <h6>Made with:</h6>
       <ul>
         <li><i class="fa-brands fa-js-square"></i> JavaScript</li>
         <li><i class="fa-brands fa-html5"></i> HTML</li>
@@ -170,6 +169,9 @@ width: auto;
 background: var(--dgrey);
 padding-left: 2rem;
 padding-right: 2rem;
+background-image: url(../assets/realestatewebsite.png);
+background-size: cover;
+background-attachment:scroll;
 
 }
 

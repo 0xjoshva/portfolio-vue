@@ -47,6 +47,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body,

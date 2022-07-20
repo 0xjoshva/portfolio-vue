@@ -23,7 +23,7 @@
         </div>
         <div class="image2 row" id="blurb">
           <p>
-            i am an aspiring full-stack web developer, with a passion for design
+            I am an aspiring full-stack web developer, with a passion for design
             and programming.
           </p>
           <a href="" id="about-link">read more</a>
@@ -39,7 +39,11 @@ export default {
 </script>
 <style scoped>
 #home {
-  background: var(--bg-color);
+  /* background-color: var(--bg-color);
+  background-image: url(../assets/green-dots.png);
+  background-blend-mode: multiply; */
+  background: radial-gradient(ellipse 50% 400px, #80ffdb00 50%, #101010a2 80%, #101010ce, #101010), url(../assets/green-dots.png);
+  background-size: contain;
   width: 100%;
   height: 100vh;
 }
@@ -79,7 +83,7 @@ export default {
 }
 #abstract {
   width: auto;
-  height: 600px;
+  height: 60vh;
   border-radius: 10px;
   transition: all 1s ease-in-out;
 }
@@ -95,7 +99,7 @@ export default {
 }
 #image-cont {
   padding-top: 3.5rem;
-  margin-left: 25%;
+  margin-left: 40vw;
 }
 
 .icons {
@@ -137,7 +141,7 @@ export default {
   transition: box-shadow 0.7s ease-in-out;
 }
 #blurb:hover {
-  box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37);
+  /* box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37); */
 }
 #about-link {
   margin-top: 0.5rem;
@@ -151,6 +155,7 @@ export default {
 }
 #about-link:hover {
   transform: translateY(-3px);
+  box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37);
 }
 
 #mini-p {

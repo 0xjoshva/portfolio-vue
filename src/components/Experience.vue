@@ -59,8 +59,7 @@ justify-content: center;
   transition: all 1s ease-in-out;
 }
 .block:hover{
-  height: 400px;
-  border: 2px solid var(--green);
+  border: 1px solid var(--green);
 }
 .block i{
 font-size: 2.4rem;

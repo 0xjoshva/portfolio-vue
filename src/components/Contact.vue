@@ -22,7 +22,7 @@ textarea, input:focus{
 }
     #contact{
         font-family: 'Montserrat', sans-serif;
-        background: var(--bg-color);
+        background-image: url(../assets/deepmind.jpg);  
         width: 100%;
         height: 100vh;
         color: var(--white);

@@ -54,7 +54,7 @@
         </div>
       </div>
       <footer id="footer-container">
-        <span class="rights text-white"> © Sterling - All rights reserved</span>
+        <span class="rights text-white">Built by Joshua Steed</span>
         <img src="../assets/newlogo.png" alt="logo" id="logo-footer" />
         <div class="socials-wrapper">
           <div class="linkedin text-white">
@@ -128,7 +128,7 @@ export default {
 
 .rights {
   align-self: center;
-  font-weight: lighter;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
 

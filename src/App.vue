@@ -47,7 +47,6 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body,
@@ -90,6 +89,7 @@ img {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px var(--bg-color);
+  box-shadow: inset 0 0 6px var(--bg-color);
   border-radius: 10px;
   background-color: var(--bg-color);
 }
@@ -102,6 +102,7 @@ img {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: var(--lgrey);
 }
 

@@ -83,7 +83,7 @@ export default {
 }
 #abstract {
   width: auto;
-  height: 60vh;
+  height: 550px;
   border-radius: 10px;
   transition: all 1s ease-in-out;
 }
@@ -99,7 +99,7 @@ export default {
 }
 #image-cont {
   padding-top: 3.5rem;
-  margin-left: 40vw;
+  margin-left: 30vw;
 }
 
 .icons {

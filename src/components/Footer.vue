@@ -128,8 +128,8 @@ export default {
 
 .rights {
   align-self: center;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bi-facebook:hover {

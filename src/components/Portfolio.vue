@@ -7,7 +7,7 @@
           <!-- <i class="fa-solid fa-fire-flame-curved"></i> -->
         </div>
         <div>
-          <button id="btn-view">All Projects</button>
+          <router-link id="btn-view" to="/projects">All Projects</router-link>
         </div>
       </div>
 

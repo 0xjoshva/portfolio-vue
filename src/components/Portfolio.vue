@@ -179,6 +179,7 @@ filter: brightness(70%);
   font-size: 18px;
   padding: 0.6rem 1rem;
   transition: all 1s ease-out;
+  text-decoration: none;
 }
 #btn-view:hover{
 

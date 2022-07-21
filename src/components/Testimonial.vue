@@ -10,8 +10,8 @@
           <h3>{{ testimonial.name }}</h3>
           <h6>{{ testimonial.role }}</h6>
           <p>
-            <i class="fa-solid fa-quote-left"></i>{{ testimonial.text
-            }}<i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-left"></i> {{ testimonial.text
+            }} <i class="fa-solid fa-quote-right"></i>
           </p>
           <hr />
         </div>

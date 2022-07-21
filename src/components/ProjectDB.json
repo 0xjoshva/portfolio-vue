@@ -1,25 +1,27 @@
 [
   {
     "id": 1,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/realestate.png?raw=true",
     "Title": "Real Estate Website",
     "text": "My most recent website.It features a beautiful landing page aswell as a property section, where clients can browse/filter active listings. The site also has an admin panel where listings can be added, sorted and deleted.",
     "date": "July 2022",
     "hosting": "https://sterling-real-estate.netlify.app",
-    "repo": "https://github.com/0xjoshva/realestate"
+    "repo": "https://github.com/0xjoshva/realestate",
+    "javascript": true
   },
   {
     "id": 2,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/artgallery.png?raw=true",
     "Title": "Les Chevres: Art Gallery",
     "text": "My classmates and I were split into groups of 4. Our group decided to do an Art Gallery Website. I was responsible for the Login, Register, Gallery, Home and Admin pages. It was a really fun project to do and It was presented infront of the entire LifeChoices cohoort",
     "date": "July 2022",
     "hosting": " ",
-    "repo": "https://github.com/fatimagalant/art-gallery"
+    "repo": "https://github.com/fatimagalant/art-gallery",
+    "javascript": true
   },
   {
     "id": 3,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/blob.png?raw=true",
     "Title": "Blob Portfolio",
     "text": "This portfolio was one of the first projects I made at LifeChoices, I made it using a popular bootstrap portfolio as referance and tried to remake it to the best of my ability. Eventhough I just picked up CSS and HTML, I would say I did pretty well considering the limited amount of resources/knowledge I had in the beggining ",
     "date": "April 2022",
@@ -28,7 +30,7 @@
   },
   {
     "id": 4,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/spacex.png?raw=true",
     "Title": "SpaceX Website",
     "text": "We were split into groups of 5 and tasked to make any website we wish. We opted for a space exploration theme. We were all responsible for different pages. I was responsible for doing the Team webpage.",
     "date": "April 2022",
@@ -37,7 +39,7 @@
   },
   {
     "id": 5,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/ramsay.png?raw=true",
     "Title": "Ramsay Portfolio",
     "text": "This is one of the 3 portfolio's I made whilst at the academy. I was really proud of this one. I experimented with many css tricks and made the most of it. I just wish that it was more cohesive.",
     "date": "June 2022",
@@ -46,7 +48,7 @@
   },
   {
     "id": 6,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/greece.png?raw=true",
     "Title": "GREECE",
     "text": "This was my first ever project. This was made using the very basics of HTML and CSS. ",
     "date": "March 2022",
@@ -55,21 +57,23 @@
   },
   {
     "id": 7,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/timescheme.png?raw=true",
     "Title": "TIMESCHEME",
     "text": "To-Do List webApp ",
     "date": "June 2022",
-     "hosting":"https://ornate-dodol-6f69b8.netlify.app/",
-    "repo":"https://github.com/0xjoshva/To-Do-List"
+    "hosting": "https://ornate-dodol-6f69b8.netlify.app/",
+    "repo": "https://github.com/0xjoshva/To-Do-List",
+    "javascript": true
   },
   {
     "id": 8,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/jason.jpg?raw=true",
-    "Title": "  BMI Calculator",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
+    "title": "  BMI Calculator",
     "text": "Calculates you Body Mass Index with Weight and Height values. ",
     "date": "June 2022",
-     "hosting":"https://enchanting-cupcake-42dc52.netlify.app/",
-    "repo":"https://github.com/0xjoshva/BMI_calculator"
+    "hosting": "https://enchanting-cupcake-42dc52.netlify.app/",
+    "repo": "https://github.com/0xjoshva/BMI_calculator",
+    "javascript": true
   }
 ]
 

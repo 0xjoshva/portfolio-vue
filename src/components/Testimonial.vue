@@ -20,7 +20,7 @@
   </section>
 </template>
 <script>
-import TestimonialDB from ".//TestimonialDB.json";
+import TestimonialDB from "/data/TestimonialDB.json";
 export default {
   data() {
     return {

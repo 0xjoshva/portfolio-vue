@@ -67,7 +67,7 @@
   </section>
 </template>
 <script>
-import ProjectDB from "/src/components/ProjectDB.json";
+import ProjectDB from "/data/ProjectDB.json";
 export default {
     data() {
     return {

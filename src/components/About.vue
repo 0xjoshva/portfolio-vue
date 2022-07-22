@@ -10,9 +10,23 @@
       <div id="panel2-container">
         <div id="panel2">
           <a href="" id="resume-link"
-            ><span id="res-txt">Resume</span
-            ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            ><i class="fa-solid fa-arrow-up-right-from-square"></i> <span id="res-txt">Resume</span
+            >
           </a>
+          
+          <div class="info-links">
+           <a href="mailto:joshuasteed123@gmail.com" id="email"
+            ><i class="fa-solid fa-at"></i> <span id="res-txt"> joshuasteed123@gmail.com</span>
+          </a>
+          <a href="tel:+27624597038" id="phone"
+            ><i class="fa-solid fa-hashtag"></i> <span id="res-txt"> +27 62 459 7038</span>
+          </a>
+          </div>
+          <div class="text-info">
+          <p>Name: Joshua Steed</p>
+          <p>Age: 19</p>
+          <p id>Cape Town, WC</p>
+</div>
         </div>
         <h2 id="soft-skills">SOFT SKILLS</h2>
       </div>
@@ -91,18 +105,23 @@ export default {};
   border-bottom-right-radius: 10px;
   background: var(--dgrey);
   padding-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+
   /* border-top: 0.3px solid var(--green);
   border-right: 0.3px solid var(--green);
   border-bottom: 0.3px solid var(--green); */
 }
+#panel2 p{
+  color: var(--white);
+}
+
 #softskills-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   column-gap: 4em;
 }
-.p1-item {
-}
+
 .p1-item h3 {
   color: var(--white);
   padding: 1rem 0 0.5rem 0;
@@ -135,12 +154,14 @@ export default {};
     rgba(250, 250, 250, 0) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem 0rem 1.5rem 2.5rem;
 }
 #point {
   color: var(--green);
 }
+
 #resume-link {
   background: var(--green);
   color: var(--dgrey);
@@ -158,6 +179,34 @@ border-top: var(--green) 2px solid;
 background: var(--dgrey);
 color: var(--white);
 font-weight: 400; */
+  padding: 5px 20px 5px 50px;
+}
+#email {
+  background: var(--lgrey);
+  color: var(--dgrey);
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+  border-radius: 0px 20px 20px 0;
+  text-decoration: none;
+  transition: all 0.6s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+}
+#email:hover {
+  padding: 5px 20px 5px 50px;
+}
+#phone {
+  background: var(--lgrey);
+  color: var(--dgrey);
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+  border-radius: 0px 20px 20px 0;
+  text-decoration: none;
+  transition: all 0.6s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  width: fit-content;
+}
+#phone:hover {
   padding: 5px 20px 5px 50px;
 }
 .fa-arrow-up-right-from-square {
@@ -186,5 +235,22 @@ font-weight: 400; */
 
 marquee {
   width: 30%;
+}
+
+.info-links{
+  padding-top: 1rem;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  row-gap: 1rem;
+
+}
+.info-links a{
+  color: var(--green);
+  text-decoration: none;
+}
+.text-info{
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 </style>

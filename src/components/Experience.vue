@@ -76,4 +76,12 @@ padding-right: 1rem;
   padding-top: 0.2rem;
   font-size: 2rem;
 }
+@media only screen and (max-width: 600px) {
+#blocks{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}}
 </style>

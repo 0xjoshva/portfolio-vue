@@ -1,6 +1,6 @@
 <template>
 <section id="projects">
-<h2 class="display-3 text-white pb-5 pt-5">Projects</h2>
+<h2 class="display-3 text-white pb-5 pt-5" id="header">Projects</h2>
 <div class="select-wrapper">
     <div id="select-field">
       <label for="dateSelect"
@@ -45,7 +45,7 @@
 
   <div v-for="project in data" v-bind:key="project.id" class="rect">
     <div id="div-img">
-    <img src="{{project.imageURL}}" id="rect-img">
+    <img v-bind:src="project.imageURL" id="rect-img">
     </div>
     <div id="rect-text">
     <h3 id="title"> {{project.title}}</h3>
@@ -56,7 +56,9 @@
       <span id="git">GIT</span>
     </div>
     <p id="text">{{project.text}}</p>
-    <a href="{{project.host}}" id="live-link">View site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <div class="project-btn">
+    <a href="{{project.host}}" id="live-link"><span>View site</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <a href="{{project.repo}}" id="live-link"> <span>Repository</span> <i class="bi bi-github"></i></a></div>
   </div>
   </div>
 
@@ -68,7 +70,7 @@
 </template>
 <script>
 import Experience from "../components/Experience.vue";
-import ProjectDB from "C:/Users/Admin/spotify-portfolio-vue/src/components/ProjectDB.json";
+import ProjectDB from "/src/components/ProjectDB.json";
 export default {
   components: { Experience },
     data() {
@@ -109,7 +111,7 @@ select:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 4rem;
   column-gap: 2rem;
 }
 label{
@@ -138,7 +140,17 @@ display: flex;
 flex-direction: row-reverse;
 }
 #rect-img{
- width: 300px;
+ width: 500px;
+ height: 100%;
+ object-fit: cover;
+transition: all 1s ease-in-out;
+}
+
+#rect-img:nth-child(even){
+   width: 500px;
+ height: 100%;
+ object-fit: cover;
+transition: all 1s ease-in-out;
 }
 #date{
   color: rgba(255, 255, 255, 0.174);
@@ -156,6 +168,7 @@ color: var(--white);
   color: var(--lgrey);
   text-align: justify;
   padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 #live-link{
   padding: 0.4rem 1rem;
@@ -163,8 +176,6 @@ color: var(--white);
   border: none;
   color:var(--dgrey);
   border-radius: 3px;
-  margin-top: 2rem;
-   margin-bottom: 1rem;
  font-size: 16px;
  font-weight: 500;
  text-decoration:none;
@@ -175,5 +186,49 @@ color: var(--white);
   align-items: center;
   flex-direction: column;
   row-gap: 2rem;
+}
+.project-btn{
+  display: flex;
+  flex-direction: row;
+  width:fit-content;
+  column-gap:0.5rem;
+}
+.project-btn span{
+  margin-right: 0.3rem;
+}
+.rect:nth-child(even){
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+ .rect{
+ flex-direction: column;
+  }
+
+  .rect:nth-child(even){
+  display: flex;
+  flex-direction: column;
+}
+#rect-text{
+  width: 90vw;
+  background: var(--dgrey);
+  padding: 2rem;
+}
+#rect-img{
+ width: 90vw;
+ height: 100%;
+ object-fit: cover;
+}
+.select-wrapper{
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+    #projects h2 {
+      text-align: left;
+      padding-left: 1rem;
+      }
 }
 </style>

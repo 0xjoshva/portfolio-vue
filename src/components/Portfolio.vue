@@ -181,13 +181,21 @@ filter: brightness(70%);
   transition: all 1s ease-out;
   text-decoration: none;
 }
-#btn-view:hover{
 
-}
 
 #date{
   color: rgba(255, 255, 255, 0.174);
   font-weight: 400;
   padding-left: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+ #container{
+ flex-direction: column;
+ row-gap: 2rem;
+  }
+}
 </style>
+
+
+

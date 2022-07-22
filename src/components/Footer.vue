@@ -54,22 +54,11 @@
         </div>
       </div>
       <footer id="footer-container">
-        <span class="rights text-white">Built by Joshua Steed</span>
-        <img src="../assets/newlogo.png" alt="logo" id="logo-footer" />
+        <span class="rights text-white">Designed & Built by Joshua Steed <br> Copyright © 2022</span>
+        <img src="../assets/newlogosimple.png" alt="logo" id="logo-footer" />
         <div class="socials-wrapper">
-          <div class="linkedin text-white">
-            <i class="bi bi-linkedin"></i>
+         <p>hosted by <span>Firebase</span></p> 
           </div>
-          <div class="twitter text-white">
-            <i class="bi bi-twitter"></i>
-          </div>
-          <div class="facebook text-white">
-            <i class="bi bi-facebook"></i>
-          </div>
-          <div class="instagram text-white">
-            <i class="bi bi-instagram"></i>
-          </div>
-        </div>
       </footer>
     </section>
 </template>
@@ -118,9 +107,10 @@ export default {
   width: fit-content;
   vertical-align: middle;
   align-self: center;
-  letter-spacing: 10px;
+  color: var(--lgrey);
+  font-family: "Roboto", sans-serif;
 }
-
+.socials-wrapper span{color: var(--green);}
 #logo-footer {
   width: auto;
   height: 2.5rem;
@@ -130,6 +120,7 @@ export default {
   align-self: center;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
+  font-size:0.8rem;
 }
 
 .bi-facebook:hover {

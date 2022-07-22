@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="sticky-top">
     <router-link to="/" id="logo"><img src="../assets/newlogo.png" alt="logo"></router-link>
     <div id="nav-links">
     <router-link to="/">HOME</router-link>

@@ -16,10 +16,7 @@
           <img src="../assets/realestate.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Real Estate Website</h2>
           <p id="feat-p">
-            My most recent website. It features a beautiful landing page aswell
-            as a property section, where clients can browse/filter active
-            listings. The site also has an admin panel where listings can be
-            added, sorted and deleted.
+            This project was made with goal of having a property listing website, with most of the functionality. A user can delete, sort, and add properties on the admin panel. Complete with a beautiful UI, and a filtering options on the home page.
           </p>
           <p id="date">July 2022</p>
         </div>
@@ -27,10 +24,7 @@
           <img src="../assets/blob.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Blob Portfolio</h2>
           <p id="feat-p">
-            My most recent website. It features a beautiful landing page aswell
-            as a property section, where clients can browse/filter active
-            listings. The site also has an admin panel where listings can be
-            added, sorted and deleted.
+            This project was my first ever portfolio. It was created exclusively with HTML5 and CSS3 about 1 month into the course. I am proud of this project because it was a stepping stone in my journey to becoming a web developer
           </p>
           <p id="date">April 2022</p>
         </div>
@@ -38,10 +32,7 @@
           <img src="../assets/artgallery.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Les Chévres: Art Gallery</h2>
           <p id="feat-p">
-            My most recent website. It features a beautiful landing page aswell
-            as a property section, where clients can browse/filter active
-            listings. The site also has an admin panel where listings can be
-            added, sorted and deleted.
+            This project was made in a group of 4. It was made using Vue.js and the goal was to make an art gallery. Where famous artist's aswell as some friends from the college could display thier drawings/sketches/paintings etc. We split the tasks amongst the group and I was responsible for the Login, Register, Admin, Gallery, and Landing pages.
           </p>
           <p id="date">July 2022</p>
         </div>
@@ -108,8 +99,10 @@ export default {};
   font-family: "Montserrat", sans-serif;
   padding-bottom: 2rem;
   padding-left: 2rem;
-
   padding-top: 0.5rem;
+  padding-right: 2rem;
+  max-width: 522px;
+
 }
 
 #feat-h2 {

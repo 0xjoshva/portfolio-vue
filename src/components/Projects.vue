@@ -7,20 +7,19 @@
           ><i class="bi bi-calendar4-week"></i>
           <select name="dateSelect" id="">
             <option value="" selected disabled>Sort by Date</option>
-            <option value="">Date Created</option>
-            <option value="">Recently Added</option>
+            <option value="">Latest</option>
+            <option value="">Earliest</option>
           </select>
         </label>
       </div>
 
       <div id="select-field">
-        <label for="dateSelect"
+        <label for="langSelect"
           ><i class="bi bi-clock-history"></i>
-          <select name="dateSelect" id="">
+          <select name="langSelect" id="">
             <option value="" selected disabled>Sort Language</option>
-            <option value=""></option>
-            <option value="">Recently Added</option>
-            <option value="">Recently Added</option>
+            <option value="">JavaScript</option>
+
           </select>
         </label>
       </div>
@@ -133,6 +132,12 @@ label i {
 .rect {
   display: flex;
   flex-direction: row-reverse;
+  transition: all 0.6s ease-in-out;
+}
+.rect:hover{
+  transform: scale(1.2);
+  box-shadow: 0 10px 40px 0 rgba(160, 160, 160, 0.216);
+  z-index: 3;
 }
 #rect-img {
   width: 500px;

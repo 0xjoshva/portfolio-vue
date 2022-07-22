@@ -1,5 +1,8 @@
 # spotify-portfolio-vue
 
+## Live Website hosted on Firebase
+https://vue-portfolio-ba1a3.firebaseapp.com/#/
+
 ## Project setup
 ```
 npm install

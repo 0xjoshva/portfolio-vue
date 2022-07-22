@@ -1,5 +1,5 @@
 <template>
-    <section id="home">
+  <section id="home">
     <div id="home-cont">
       <div id="greeting">
         <h1 id="heading">
@@ -33,16 +33,21 @@
   </section>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
 #home {
   /* background-color: var(--bg-color);
   background-image: url(../assets/green-dots.png);
   background-blend-mode: multiply; */
-  background: radial-gradient(ellipse 50% 400px, #80ffdb00 50%, #101010a2 80%, #101010ce, #101010), url(../assets/green-dots.png);
+  background: radial-gradient(
+      ellipse 50% 400px,
+      #80ffdb00 50%,
+      #101010a2 80%,
+      #101010ce,
+      #101010
+    ),
+    url(../assets/green-dots.png);
   background-size: contain;
   width: 100%;
   height: 100vh;
@@ -52,7 +57,7 @@ export default {
   text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white),
     -1px 1px 0 var(--white), 1px 1px 0 var(--white);
   font-size: 120px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -64,7 +69,7 @@ export default {
 }
 #subheading {
   color: var(--green);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   align-self: inherit;
 }
@@ -131,8 +136,8 @@ export default {
   width: 190px;
   background: rgba(14, 14, 14, 0.2);
   height: 11rem;
-  font-family: 'Montserrat', sans-serif;
- line-height: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1rem;
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
   border: 1px solid rgba(255, 255, 255, 0.18);

@@ -4,32 +4,30 @@
     <div class="container">
       <hr />
       <!-- item -->
-<div v-for="testimonial in data" v-bind:key="testimonial.id" class="item">
+      <div v-for="testimonial in data" v-bind:key="testimonial.id" class="item">
         <img v-bind:src="testimonial.imageURL" alt="" />
         <div id="txt-container">
           <h3>{{ testimonial.name }}</h3>
           <h6>{{ testimonial.role }}</h6>
           <p>
-            <i class="fa-solid fa-quote-left"></i> {{ testimonial.text
-            }} <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-left"></i> {{ testimonial.text }}
+            <i class="fa-solid fa-quote-right"></i>
           </p>
           <hr />
         </div>
       </div>
-      
     </div>
   </section>
 </template>
 <script>
-import TestimonialDB from ".//TestimonialDB.json"
+import TestimonialDB from ".//TestimonialDB.json";
 export default {
-    data() {
-        return {
-            data: TestimonialDB
-        }
-    }
-}
-
+  data() {
+    return {
+      data: TestimonialDB,
+    };
+  },
+};
 </script>
 <style scoped>
 #testimonial {

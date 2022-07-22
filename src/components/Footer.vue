@@ -1,74 +1,70 @@
 <template>
-    <section id="footer">
-      <div class="info container">
-        <div class="info-item" id="discover-item">
-          <h4 class="text-white">Discover</h4>
-          <div class="cities">
-            <a href="index.html" class="city"
-              ><i class="bi bi-caret-right"></i> Durban</a
-            >
-            <a href="index.html" class="city"
-              ><i class="bi bi-caret-right"></i> Cape Town</a
-            >
-            <a href="index.html" class="city"
-              ><i class="bi bi-caret-right"></i> Johannesburg</a
-            >
-            <a href="index.html" class="city"
-              ><i class="bi bi-caret-right"></i> East London</a
-            >
-          </div>
+  <section id="footer">
+    <div class="center">
+      <div class="foot-links">
+        <h3>Pages</h3>
+        <ul>
+          <li><router-link to="/" class="links">Home</router-link></li>
+          <li>
+            <router-link to="/projects" class="links">Projects</router-link>
+          </li>
+          <li>
+            <router-link to="/contact" class="links">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+      <div class="foot-links">
+        <h3>Sections</h3>
+        <ul>
+          <li><a href="" class="links">Landing</a></li>
+          <li><a href="" class="links">About</a></li>
+          <li><a href="" class="links">Featured</a></li>
+          <li><a href="" class="links">Testimonials</a></li>
+        </ul>
+      </div>
+
+      <div class="info-item" id="newsletter-wrapper">
+        <div>
+          <h4 class="text-white">Get in touch.</h4>
         </div>
-        <div class="info-item">
-          <h4 class="text-white" id="contact-header">Contact Us</h4>
-          <div class="contact">
-            <div class="contact-item">
-              <i class="bi bi-geo"></i> 1590 Cheriton Dr Port Shepstone, KZN
-              4243
-            </div>
-            <div class="contact-item">
-              <i class="bi bi-telephone"></i> 085 783 8992
-            </div>
-            <div class="contact-item">
-              <i class="bi bi-envelope"></i> help@sterlingholdings.co.za
-            </div>
-          </div>
-        </div>
-        <div class="info-item" id="newsletter-wrapper">
-          <div>
-            <h4 class="text-white">Newsletter</h4>
-          </div>
-          <div id="newsletter">
-            <input
-              type="email"
-              id="email-input"
-              placeholder="Enter your email"
-            />
-            <button type="submit" id="email-btn">Submit</button>
-          </div>
-          <div>
-            <p class="fw-light text-white" id="newsletter-notice">
-              sign up for our news letter to get alerted whenever a new property
-              goes on the market.
-            </p>
-          </div>
+        <form
+          id="newsletter"
+          action="https://formspree.io/f/mvolebno"
+          method="POST"
+        >
+          <input
+            type="email"
+            id="email-input"
+            name="E-Mail"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" id="email-btn">Send!</button>
+        </form>
+        <div>
+          <p class="fw-light text-white" id="newsletter-notice">
+            enter your email if you would like me to reach out to you.
+          </p>
         </div>
       </div>
-      <footer id="footer-container">
-        <span class="rights text-white">Designed & Built by Joshua Steed <br> Copyright © 2022</span>
-        <img src="../assets/newlogosimple.png" alt="logo" id="logo-footer" />
-        <div class="socials-wrapper">
-         <p>hosted by <span>Firebase</span></p> 
-          </div>
-      </footer>
-    </section>
+    </div>
+    <footer id="footer-container">
+      <span class="rights text-white"
+        >Designed & Built by Joshua Steed <br />
+        Copyright © 2022</span
+      >
+      <img src="../assets/newlogosimple.png" alt="logo" id="logo-footer" />
+      <div class="socials-wrapper">
+        <p>hosted by <span>Firebase</span></p>
+      </div>
+    </footer>
+  </section>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
-    footer {
+footer {
   width: 100% !important;
 }
 
@@ -88,7 +84,7 @@ export default {
 }
 .info {
   height: 300px;
-  background-color: #222222;
+  background-color: #fefefe;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -110,7 +106,9 @@ export default {
   color: var(--lgrey);
   font-family: "Roboto", sans-serif;
 }
-.socials-wrapper span{color: var(--green);}
+.socials-wrapper span {
+  color: var(--green);
+}
 #logo-footer {
   width: auto;
   height: 2.5rem;
@@ -119,8 +117,8 @@ export default {
 .rights {
   align-self: center;
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
-  font-size:0.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
 }
 
 .bi-facebook:hover {
@@ -182,6 +180,7 @@ a:active {
   border-radius: 3px 3px;
   height: 36px;
   width: 300px;
+  padding-left: 10px;
 }
 
 #email-btn {
@@ -204,10 +203,42 @@ a:active {
 #newsletter-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 #newsletter-notice {
   font-size: 12px;
   width: 300px;
   padding-top: 1%;
+}
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+}
+a.links {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8rem;
+  border-bottom: 2px solid var(--green);
+  font-weight: 300;
+}
+router-link.links {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8rem;
+  border-bottom: 2px solid var(--green);
+  font-weight: 300;
+}
+.foot-links h3 {
+  font-size: 1.2rem;
+  color: var(--white);
+}
+@media only screen and (max-width: 600px) {
+  #newsletter-wrapper {
+    display: none;
+  }
 }
 </style>

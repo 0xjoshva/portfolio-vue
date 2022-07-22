@@ -14,7 +14,7 @@ import Testimonial from "../components/Testimonial.vue";
 import Footer from "../components/Footer.vue";
 export default {
   name: "HomeView",
-  components: { Home, About, Portfolio, Footer, Testimonial, },
+  components: { Home, About, Portfolio, Footer, Testimonial },
 };
 </script>
 

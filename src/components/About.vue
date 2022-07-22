@@ -2,7 +2,9 @@
   <section id="about">
     <marquee behavior="alternate" direction="left" id="scroll-text"
       ><p id="scroll-p">
-        • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT •
+        • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT
+        • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT • ABOUT
+        • ABOUT • ABOUT • ABOUT • ABOUT •
       </p></marquee
     >
 
@@ -10,23 +12,25 @@
       <div id="panel2-container">
         <div id="panel2">
           <a href="" id="resume-link"
-            ><i class="fa-solid fa-arrow-up-right-from-square"></i> <span id="res-txt">Resume</span
-            >
+            ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <span id="res-txt">Resume</span>
           </a>
-          
+
           <div class="info-links">
-           <a href="mailto:joshuasteed123@gmail.com" id="email"
-            ><i class="fa-solid fa-at"></i> <span id="res-txt"> joshuasteed123@gmail.com</span>
-          </a>
-          <a href="tel:+27624597038" id="phone"
-            ><i class="fa-solid fa-hashtag"></i> <span id="res-txt"> +27 62 459 7038</span>
-          </a>
+            <a href="mailto:joshuasteed123@gmail.com" id="email"
+              ><i class="fa-solid fa-at"></i>
+              <span id="res-txt"> joshuasteed123@gmail.com</span>
+            </a>
+            <a href="tel:+27624597038" id="phone"
+              ><i class="fa-solid fa-hashtag"></i>
+              <span id="res-txt"> +27 62 459 7038</span>
+            </a>
           </div>
           <div class="text-info">
-          <p>Name: Joshua Steed</p>
-          <p>Age: 19</p>
-          <p id>Cape Town, WC</p>
-</div>
+            <p>Name: Joshua Steed</p>
+            <p>Age: 19</p>
+            <p id>Cape Town, WC</p>
+          </div>
         </div>
         <h2 id="soft-skills">SOFT SKILLS</h2>
       </div>
@@ -105,13 +109,13 @@ export default {};
   border-bottom-right-radius: 10px;
   background: var(--dgrey);
   padding-top: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   /* border-top: 0.3px solid var(--green);
   border-right: 0.3px solid var(--green);
   border-bottom: 0.3px solid var(--green); */
 }
-#panel2 p{
+#panel2 p {
   color: var(--white);
 }
 
@@ -237,19 +241,18 @@ marquee {
   width: 30%;
 }
 
-.info-links{
+.info-links {
   padding-top: 1rem;
   display: flex;
   width: fit-content;
   flex-direction: column;
   row-gap: 1rem;
-
 }
-.info-links a{
+.info-links a {
   color: var(--green);
   text-decoration: none;
 }
-.text-info{
+.text-info {
   padding-top: 1rem;
   padding-left: 1rem;
 }

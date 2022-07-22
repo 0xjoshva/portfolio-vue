@@ -3,10 +3,10 @@
   <router-view />
 </template>
 <script>
-import Navbar from "./components/Navbar.vue"
+import Navbar from "./components/Navbar.vue";
 export default {
   name: "App",
-  components: { Navbar, },
+  components: { Navbar },
   // return: { dark : true},
   //   methods = {
   //     let root = document.querySelector(":root"),
@@ -27,7 +27,7 @@ export default {
   //       root.style.setProperty('--lgreen', '#YOURCOLOR'),
   //     }
   //   }
-}
+};
 </script>
 <style>
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");

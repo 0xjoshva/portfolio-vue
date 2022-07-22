@@ -15,7 +15,7 @@
     "title": "Les Chevres: Art Gallery",
     "text": "My classmates and I were split into groups of 4. Our group decided to do an Art Gallery Website. I was responsible for the Login, Register, Gallery, Home and Admin pages. It was a really fun project to do and It was presented infront of the entire LifeChoices cohoort",
     "date": "July 2022",
-    "hosting": " ",
+    "hosting": "https://leschevresdigitalartgallery.netlify.app/",
     "repo": "https://github.com/fatimagalant/art-gallery",
     "javascript": true
   },
@@ -25,7 +25,7 @@
     "title": "Blob Portfolio",
     "text": "This portfolio was one of the first projects I made at LifeChoices, I made it using a popular bootstrap portfolio as referance and tried to remake it to the best of my ability. Eventhough I just picked up CSS and HTML, I would say I did pretty well considering the limited amount of resources/knowledge I had in the beggining ",
     "date": "April 2022",
-     "hosting": "https://myresume-0xjoshva.netlify.app/",
+    "hosting": "https://myresume-0xjoshva.netlify.app/",
     "repo": "https://github.com/0xjoshva/portfolio"
   },
   {
@@ -34,8 +34,8 @@
     "title": "SpaceX Website",
     "text": "We were split into groups of 5 and tasked to make any website we wish. We opted for a space exploration theme. We were all responsible for different pages. I was responsible for doing the Team webpage.",
     "date": "April 2022",
-     "hosting": "https://team-spacex.netlify.app/",
-    "repo":"https://github.com/0xjoshva/spacex-website"
+    "hosting": "https://team-spacex.netlify.app/",
+    "repo": "https://github.com/0xjoshva/spacex-website"
   },
   {
     "id": 5,
@@ -43,7 +43,7 @@
     "title": "Ramsay Portfolio",
     "text": "This is one of the 3 portfolio's I made whilst at the academy. I was really proud of this one. I experimented with many css tricks and made the most of it. I just wish that it was more cohesive.",
     "date": "June 2022",
-     "hosting": "https://joshuasteed-portfolio.netlify.app",
+    "hosting": "https://joshuasteed-portfolio.netlify.app",
     "repo": "https://github.com/0xjoshva/spotify-portfolio"
   },
   {
@@ -52,8 +52,8 @@
     "title": "GREECE: Holiday Bookings",
     "text": "This was my first ever project. This was made using the very basics of HTML and CSS. ",
     "date": "March 2022",
-     "hosting":"https://illustrious-otter-9a2a1b.netlify.app/",
-    "repo":"https://github.com/0xjoshva/holiday_destination"
+    "hosting": "https://illustrious-otter-9a2a1b.netlify.app",
+    "repo": "https://github.com/0xjoshva/holiday_destination"
   },
   {
     "id": 7,
@@ -76,5 +76,3 @@
     "javascript": true
   }
 ]
-
-

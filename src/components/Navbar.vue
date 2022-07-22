@@ -1,44 +1,47 @@
 <template>
-    <nav class="sticky-top">
-    <router-link to="/" id="logo"><img src="../assets/newlogo.png" alt="logo"></router-link>
+  <nav class="sticky-top">
+    
+    <div>
+    <router-link to="/" id="logo"
+      ><img src="../assets/newlogo.png" alt="logo" id="logo"
+    /></router-link>
+    </div>
+
     <div id="nav-links">
-    <router-link to="/">HOME</router-link>
-    <router-link to="#portfolio">FOLIO</router-link>
-    <router-link to="/contact">CONTACT</router-link>
+      <router-link to="/">HOME</router-link>
+      <router-link to="/projects">PROJECTS</router-link>
+      <router-link to="/contact">CONTACT</router-link>
     </div>
   </nav>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
-#logo{
-  width: 120px;
+#logo {
+  width: 130px;
   height: auto;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: inherit;
 }
-nav{
+nav {
   background: var(--bg-color);
   color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   column-gap: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 13px;
   padding: 20px;
   border-bottom: 1px solid var(--dgrey);
   width: 100%;
 }
-#nav-links{
+#nav-links {
   display: flex;
-column-gap: 20px;
+  column-gap: 20px;
 }
-
 </style>

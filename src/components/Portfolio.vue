@@ -13,7 +13,7 @@
 
       <div id="container">
         <div id="feat-item">
-          <img src="../assets/realestate.png" alt="" id="feat-img"/>
+          <img src="../assets/realestate.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Real Estate Website</h2>
           <p id="feat-p">
             My most recent website. It features a beautiful landing page aswell
@@ -23,8 +23,8 @@
           </p>
           <p id="date">July 2022</p>
         </div>
-                <div id="feat-item">
-          <img src="../assets/blob.png" alt="" id="feat-img"/>
+        <div id="feat-item">
+          <img src="../assets/blob.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Blob Portfolio</h2>
           <p id="feat-p">
             My most recent website. It features a beautiful landing page aswell
@@ -35,7 +35,7 @@
           <p id="date">April 2022</p>
         </div>
         <div id="feat-item">
-          <img src="../assets/artgallery.png" alt="" id="feat-img"/>
+          <img src="../assets/artgallery.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Les Chévres: Art Gallery</h2>
           <p id="feat-p">
             My most recent website. It features a beautiful landing page aswell
@@ -45,7 +45,6 @@
           </p>
           <p id="date">July 2022</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -117,8 +116,8 @@ export default {};
   color: var(--white);
   font-family: "Montserrat", sans-serif;
   padding-top: 0.5rem;
- margin-left: 2rem;
- width: fit-content;
+  margin-left: 2rem;
+  width: fit-content;
   border-bottom: 4px solid var(--green);
 }
 
@@ -131,7 +130,6 @@ export default {};
 #feat-link {
   width: fit-content;
   height: fit-content;
-
 }
 
 #link-container {
@@ -158,19 +156,27 @@ export default {};
   margin-left: 2rem;
   margin-right: 2rem;
   padding-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
-#feat-img{
-width: fit-content;
-height: auto;
-border-top-right-radius: 10px;
-border-top-left-radius:10px ;
-filter: brightness(70%);
+#feat-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px 0 rgba(160, 160, 160, 0.4);
+  z-index: 3;
 }
-#feat-img:hover{
+
+#feat-img {
+  width: fit-content;
+  height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  filter: brightness(70%);
+  transition: 0.4s all ease-in-out;
+}
+#feat-img:hover {
   filter: brightness(100%);
 }
-#btn-view{
+#btn-view {
   background: var(--bg-color);
   border: none;
   border: 2px solid var(--green);
@@ -182,20 +188,16 @@ filter: brightness(70%);
   text-decoration: none;
 }
 
-
-#date{
+#date {
   color: rgba(255, 255, 255, 0.174);
   font-weight: 400;
   padding-left: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
- #container{
- flex-direction: column;
- row-gap: 2rem;
+  #container {
+    flex-direction: column;
+    row-gap: 2rem;
   }
 }
 </style>
-
-
-

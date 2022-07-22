@@ -1,16 +1,15 @@
 <template>
-<Contact/>
-<Footer/>
+  <Contact />
+  <Footer />
 </template>
 <script>
-import Contact from "../components/Contact.vue"
-import Footer from "../components/Footer.vue"
+import Contact from "../components/Contact.vue";
+import Footer from "../components/Footer.vue";
 export default {
-    components: {
-        Contact, Footer
-    }
-}
+  components: {
+    Contact,
+    Footer,
+  },
+};
 </script>
-<style>
-    
-</style>
+<style></style>

@@ -155,9 +155,14 @@ width: 18rem;
 }
   #txtarea {
     width:19rem;
+    margin-bottom: 1rem;
   }
     #contact h1 {
     text-align: center;
+    font-size: 4rem;
+  }
+  label{
+    font-size: medium;
   }
 }
 </style>

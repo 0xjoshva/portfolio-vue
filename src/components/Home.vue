@@ -97,7 +97,6 @@ export default {};
   box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
   -webkit-box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
   -moz-box-shadow: 10px 10px 10px 0px rgba(29, 29, 29, 0.67);
-  transform: translate(-5px, -5px);
 }
 #home-cont {
   display: flex;
@@ -147,7 +146,7 @@ export default {};
   transition: box-shadow 0.7s ease-in-out;
 }
 #blurb:hover {
-  /* box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37); */
+  box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37);
 }
 #about-link {
   margin-top: 0.5rem;

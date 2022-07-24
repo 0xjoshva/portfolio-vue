@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <h1>Contact</h1>
+    <h1>contact</h1>
     <form action="https://formspree.io/f/xlezqbkp" method="POST">
       <label for="namesurname"
         >Full Name <br />

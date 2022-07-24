@@ -1,6 +1,6 @@
 <template>
  <section id="projects">
-    <h2 class="display-3 text-white pb-5 pt-5" id="header">Projects</h2>
+    <h2 class="display-3 text-white pb-5 pt-5" id="header">projects</h2>
     <div class="select-wrapper">
       <div id="select-field">
         <label for="dateSelect"
@@ -85,10 +85,11 @@ export default {
   color: var(--white);
 }
 #projects h2 {
-  font-size: 3rem;
-  line-height: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
   text-align: center;
-  font-weight: 400;
 }
 
 select {

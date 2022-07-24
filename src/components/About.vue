@@ -260,15 +260,20 @@ marquee {
 
 <template>
 <section id="about">
-  <div id="img-div">
-  <img src="" id="pic">
-  </div>
+  <figure id="img-div">
+  <img src="../assets/torso.jpg" id="pic">
+  <figcaption class="text-block">
+    <h1>Joshua Steed</h1>
+    <p>web developer</p>
+  </figcaption>
+  </figure>
   <div id="resume">
 <h2 id="header">about me</h2>
 <h6><span>19 years</span> / <span>Cape Town</span> / <span>Student</span></h6>
 
 <p id="content">I am an enthusiastic student at <span>Life Choices Academy</span> where I have been learning full-stack web development for the past 4 months. I have been taught   <span>HTML</span>, <span>CSS</span>, <span>MySQL</span>, <span>Git</span>, and <span>JavaScript</span> including frameworks <span>Bootstrap 5</span>, <span>Node.js</span> and <span>Vue.js</span>. I have made projects with with all of the above mentioned and I am constantly improving with time. I believe that being committed, hard-working and consistent is the key to success and it is something I strive for every. single. day.
-I am eager to start an internship to hone my craft and to attain the skills to be the best web developer I have the potential to become. I have many aspirations and the ability to create something from nothing will allow me to make them come to fruition.</p>
+I am eager to start an internship to hone my craft and to attain the skills to be the best web developer I have the potential to become. I have many aspirations and the ability to create something from nothing will allow me to make them come to fruition.
+</p>
 
 <hr/>
 
@@ -355,6 +360,7 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 #about{
   background: var(--dgrey);
   width: 100%;
@@ -364,9 +370,41 @@ export default {
   flex-direction: row;
 }
 #pic{
-    width: 50%;
-    height: 100%;
+    width: auto;
+    height: 103%;
     object-fit: cover;
+    filter: brightness(10%);
+    display: block;
+  }
+  #img-div{
+    position: relative;
+  }
+.text-block {
+  position: absolute;
+  bottom:8rem;
+  color: var(--white);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+.text-block h1{
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+.text-block p{
+ font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--lgreen);
+  font-weight: 500;
+}
+  #resume{
+    padding-left: 4rem;
+    width: 50%;
   }
 #header{
   color: white;
@@ -394,9 +432,12 @@ h6 span{
   color: var(--green);
   font-weight: 600;
 }
+
 hr{
-  margin: 2rem 3rem;
+  margin: 3rem 3rem;
   color: var(--lgrey);
+  width: 80%;
+  	margin: 3rem auto;
 }
 #skills-header{
     font-size: 2rem;
@@ -490,6 +531,13 @@ padding-top: 1rem;
   }
     #wrapper2{
     flex-direction: column;
+  }
+  #resume{
+  width: 100%;
+  margin: 0 auto;
+  }
+  #img-div{
+    display:none;
   }
 }
 </style>

@@ -26,7 +26,7 @@
             I am an aspiring full-stack web developer, with a passion for design
             and programming.
           </p>
-          <a href="" id="about-link">read more</a>
+          <a href="" id="about-link" >read more</a>
         </div>
       </div>
     </div>

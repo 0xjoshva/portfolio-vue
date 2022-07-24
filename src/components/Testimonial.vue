@@ -89,4 +89,14 @@ img {
 #txt-container i {
   color: var(--green);
 }
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  #testimonial h1{
+        padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  }
+}
 </style>

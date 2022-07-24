@@ -126,6 +126,28 @@ export default {};
   background: var(--bg-color);
   transition: all 1s ease-in-out;
   width: 13rem;
- justify-content: center;}
+ justify-content: center;
+ }
+}
+
+@media only screen and (max-width: 425px){
+    .block {
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid var(--lgrey);
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin: 0;
+  border-radius: 10px;
+  height: fit-content;
+  background: var(--bg-color);
+  transition: all 1s ease-in-out;
+  width: 13rem;
+ justify-content: center;
+ }
 }
 </style>

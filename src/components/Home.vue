@@ -221,9 +221,9 @@ font-size: 7rem;
 @media only screen and (max-width: 425px){
 	/*Small smartphones [325px -> 425px]*/
       h1#heading{
-      padding-left: 0rem;
+      padding-left: 1rem;
     }
-    #heading {
+    #heading{
       padding-top: 2em;
 font-size: 6rem;
 line-height: 6rem;
@@ -231,7 +231,6 @@ line-height: 6rem;
       display: flex;
       align-items: center;
 }
-#home-cont{
-}
+
 }
 </style>

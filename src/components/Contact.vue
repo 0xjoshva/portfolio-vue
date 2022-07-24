@@ -5,14 +5,14 @@
       <label for="namesurname"
         >Full Name <br />
         <input name="namesurname" type="text" id="fullname"
-      /></label>
+      required/></label>
       <label for="emailaddress"
         >Email Address <br />
-        <input name="emailaddress" type="email" id="email"
+        <input name="emailaddress" type="email" id="email" required
       /></label>
       <label for="txtarea" id="txt-lbl"
         >Message <br />
-        <textarea name="txtarea" id="txtarea"></textarea>
+        <textarea name="txtarea" id="txtarea" required></textarea>
       </label>
       <button type="submit" id="submit-btn">
         Send Message <i class="bi bi-play-fill"></i>
@@ -116,11 +116,47 @@ label {
 label:focus-within > text {
   border: 1px solid var(--green);
 }
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+      #email {
+  width: 25rem;
+}
+#fullname {
+width: 25rem;
+}
+  #txtarea {
+    width:35rem;
+    margin-bottom: 3rem;
+  }
+    #contact h1 {
+    text-align: center;
+    font-size: 7rem;
+  }
+
+}
 @media only screen and (max-width: 600px) {
   #txtarea {
     width: 25rem;
+    
   }
   #contact h1 {
+    text-align: center;
+    
+  }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  #email {
+  width: 18rem;
+}
+#fullname {
+width: 18rem;
+}
+  #txtarea {
+    width:19rem;
+  }
+    #contact h1 {
     text-align: center;
   }
 }

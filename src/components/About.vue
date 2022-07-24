@@ -298,4 +298,12 @@ padding-top: 1rem;
     display:none;
   }
 }
+@media only screen and (max-width: 425px){
+  #resume{
+    padding-left: 2rem;
+  }
+  #header{
+    padding-left: 0px;
+  }
+}
 </style>

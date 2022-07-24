@@ -81,7 +81,6 @@ export default {};
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5em;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -216,4 +215,19 @@ font-size: 3rem;
 width: min-content;
   }
 }
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  .header-cont{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+  #portfolio h1{
+    padding-left: 0;
+font-size: 3rem;
+width: min-content;
+  }
+}
+
+
 </style>

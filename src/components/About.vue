@@ -371,10 +371,11 @@ export default {
 }
 #pic{
     width: auto;
-    height: 103%;
+    height: 110%;
     object-fit: cover;
     filter: brightness(10%);
     display: block;
+    transform: translateY(-3.5rem);
   }
   #img-div{
     position: relative;

@@ -3,11 +3,11 @@
     <div id="featured">
       <div class="header-cont">
         <div class="headers">
-          <h1>Featured Projects</h1>
+          <h1>featured projects</h1>
           <!-- <i class="fa-solid fa-fire-flame-curved"></i> -->
         </div>
         <div>
-          <router-link id="btn-view" to="/projects">All Projects</router-link>
+          <router-link id="btn-view" to="/projects">view all projects</router-link>
         </div>
       </div>
 
@@ -52,10 +52,15 @@ export default {};
   height: fit-content;
   width: 100%;
   color: var(--white);
+  padding-bottom: 15em;
 }
 #portfolio h1 {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
+    padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
 }
 .fa-fire-flame-curved {
   background-color: #fad961;
@@ -79,7 +84,6 @@ export default {};
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10em;
 }
 .headers {
   display: flex;
@@ -191,6 +195,11 @@ export default {};
   #container {
     flex-direction: column;
     row-gap: 2rem;
+  }
+  #portfolio h1{
+    padding-left: 2rem;
+font-size: 3rem;
+width: min-content;
   }
 }
 </style>

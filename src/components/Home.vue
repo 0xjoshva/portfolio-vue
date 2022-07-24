@@ -4,9 +4,9 @@
       <div id="greeting">
         <h1 id="heading">
           <div id="before">
-            <span id="fill">Hi<span id="comma">,</span> I'm</span>
+            <span id="fill">hi<span id="comma">,</span> i'm</span>
           </div>
-          <div id="after">Joshua<span id="comma">;</span></div>
+          <div id="after">joshua<span id="comma">;</span></div>
         </h1>
         <p id="subheading">web developer</p>
       </div>
@@ -18,8 +18,8 @@
         <div class="image2 icons">
           <span><i class="bi bi-instagram"></i></span>
           <span><i class="bi bi-twitter"></i></span>
-          <span><i class="bi bi-linkedin"></i></span>
-          <span><i class="bi bi-github"></i></span>
+          <span> <a href="https://www.linkedin.com/in/joshua-steed-1526b6238/" target="_blank"><i class="bi bi-linkedin"></i></a></span>
+          <span> <a href="https://github.com/0xjoshva" target="_blank"><i class="bi bi-github"></i></a></span>
         </div>
         <div class="image2 row" id="blurb">
           <p>
@@ -40,14 +40,15 @@ export default {};
   /* background-color: var(--bg-color);
   background-image: url(../assets/green-dots.png);
   background-blend-mode: multiply; */
-  background: radial-gradient(
+  /* background: radial-gradient(
       ellipse 50% 400px,
       #80ffdb00 50%,
       #101010a2 80%,
       #101010ce,
       #101010
     ),
-    url(../assets/green-dots.png);
+    url(../assets/green-dots.png); */
+    background-color: var(--bg-color);
   background-size: contain;
   width: 100%;
   height: 100vh;
@@ -56,12 +57,12 @@ export default {};
   color: var(--bg-color);
   text-shadow: -1px -1px 0 var(--white), 1px -1px 0 var(--white),
     -1px 1px 0 var(--white), 1px 1px 0 var(--white);
-  font-size: 120px;
+  font-size: 8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   display: flex;
   flex-direction: column;
-  line-height: 120px;
+  line-height: 8rem;
   padding-left: 8rem;
 }
 #fill {
@@ -171,5 +172,24 @@ export default {};
   justify-content: space-between;
   margin-bottom: 1.5rem;
   transform: translateX(-7px);
+}
+a{
+  color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+#heading {
+font-size: 7rem;
+      padding-left: 3rem;
+      margin: 0 auto;
+}
+#abstract{
+  display:none;}
+#mini-p{
+  display: none;
+}
+#blurb{
+  display: none;
+}
 }
 </style>

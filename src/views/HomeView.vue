@@ -1,7 +1,7 @@
 <template>
   <Home />
-  <About />
   <Portfolio />
+  <About />
   <Testimonial />
   <Footer />
 </template>

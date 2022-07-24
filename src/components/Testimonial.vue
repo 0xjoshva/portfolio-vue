@@ -1,7 +1,8 @@
 <template>
   <section id="testimonial">
-    <h1>Testimonials</h1>
+    
     <div class="container">
+      <h1>testimonials</h1>
       <hr />
       <!-- item -->
       <div v-for="testimonial in data" v-bind:key="testimonial.id" class="item">
@@ -37,11 +38,15 @@ export default {
   padding-bottom: 6em;
   padding-top: 6em;
   font-family: "Montserrat", sans-serif;
+  padding-top: 10em;
 }
 #testimonial h1 {
   color: var(--white);
-  font-weight: 400;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+    padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
 }
 .container {
   display: flex;

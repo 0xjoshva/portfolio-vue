@@ -236,6 +236,11 @@ router-link.links {
   font-size: 1.2rem;
   color: var(--white);
 }
+@media only screen and (max-width: 1200px) {
+  #newsletter-wrapper {
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   #newsletter-wrapper {
     display: none;

@@ -191,7 +191,21 @@ export default {};
   padding-left: 2rem;
 }
 
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+  #container {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  #portfolio h1{
+    padding-left: 2rem;
+font-size: 3rem;
+width: min-content;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
   #container {
     flex-direction: column;
     row-gap: 2rem;

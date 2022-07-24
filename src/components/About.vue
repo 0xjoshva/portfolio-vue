@@ -265,7 +265,25 @@ padding-top: 1rem;
   border-radius: 50%;
 }
 
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+      #wrapper{
+    flex-direction: column;
+  }
+    #wrapper2{
+    flex-direction: column;
+  }
+  #resume{
+  width: 100%;
+  margin: 0 auto;
+  }
+  #img-div{
+    display:none;
+  }
+}
 @media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
   #wrapper{
     flex-direction: column;
   }

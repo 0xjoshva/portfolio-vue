@@ -201,6 +201,36 @@ label i {
   display: flex;
   flex-direction: row;
 }
+@media only screen and (max-width: 1200px){
+  .rect {
+    flex-direction: column;
+  }
+
+  .rect:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+  }
+  #rect-text {
+    width: 90vw;
+    background: var(--dgrey);
+    padding: 2rem;
+  }
+  #rect-img {
+    width: 90vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  .select-wrapper {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  #projects h2 {
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .rect {

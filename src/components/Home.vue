@@ -175,8 +175,34 @@ export default {};
 a{
   color: inherit;
 }
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    #home{
+      height: 80vh;
+    }
+    h1#heading{
+      padding-left: 3rem;
+    }
+    #heading {
+      padding-top: 2em;
+font-size: 11rem;
+line-height: 11rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+}
+#abstract{
+  display:none;}
+#mini-p{
+  display: none;
+}
+#blurb{
+  display: none;
+}
+}
 
 @media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
 #heading {
 font-size: 7rem;
       padding-left: 3rem;
@@ -189,6 +215,23 @@ font-size: 7rem;
 }
 #blurb{
   display: none;
+}
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+      h1#heading{
+      padding-left: 0rem;
+    }
+    #heading {
+      padding-top: 2em;
+font-size: 6rem;
+line-height: 6rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+}
+#home-cont{
 }
 }
 </style>

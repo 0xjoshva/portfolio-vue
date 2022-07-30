@@ -99,6 +99,7 @@ footer {
   font-weight: 400;
   font-size: 18px;
 }
+
 .socials-wrapper {
   display: flex;
   flex-direction: row;

@@ -161,7 +161,7 @@ label i {
   color: var(--white);
 }
 #rect-text {
-  width: 35rem;
+  width: 50rem;
   background: var(--dgrey);
   padding: 2rem;
 }

@@ -63,7 +63,7 @@ export default {};
   display: flex;
   flex-direction: column;
   line-height: 8rem;
-  padding-left: 8rem;
+  padding-left: 15rem;
 }
 #fill {
   color: var(--white);
@@ -104,7 +104,9 @@ export default {};
 }
 #image-cont {
   padding-top: 3.5rem;
-  margin-left: 30vw;
+  margin-right: 0; 
+  margin-left: auto;
+
 }
 
 .icons {
@@ -144,6 +146,7 @@ export default {};
   border-radius: 3px;
   color: var(--lgrey);
   transition: box-shadow 0.7s ease-in-out;
+  margin-right: 1rem;
 }
 #blurb:hover {
   box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37);

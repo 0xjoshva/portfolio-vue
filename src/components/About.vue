@@ -101,7 +101,7 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 #about{
-  background: var(--dgrey);
+  background: var(--bg-color);
   width: 100%;
   height: fit-content;
   font-family: 'Montserrat', sans-serif;
@@ -115,6 +115,7 @@ export default {
     filter: brightness(10%);
     display: block;
     transform: translateY(-3.5rem);
+    margin-left: 8rem;
   }
   #img-div{
     position: relative;
@@ -130,6 +131,7 @@ export default {
   flex-direction: column;
   align-items: center;
   row-gap: 0.2rem;
+  margin-left: 8rem;
 }
 .text-block h1{
   font-weight: 700;
@@ -143,8 +145,11 @@ export default {
   font-weight: 500;
 }
   #resume{
-    padding-left: 4rem;
-    width: 50%;
+    margin-left:8rem;
+    padding-left: 2rem;
+    width: 60vw;
+    margin-right: 8rem;
+    background: var(--dgrey);
   }
 #header{
   color: white;
@@ -231,6 +236,7 @@ label{
   display: flex;
   flex-direction: row;
   column-gap: 2rem;
+  margin-right: 2rem;
 }
 #wrapper2{
   display: flex;
@@ -305,5 +311,6 @@ padding-top: 1rem;
   #header{
     padding-left: 0px;
   }
+  .item{ margin-right: 3rem};
 }
 </style>

@@ -121,7 +121,10 @@ export default {};
   display: flex;
   flex-direction: row;
   width: fit-content;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  column-gap: 2rem;
 }
 #feat-link {
   width: fit-content;
@@ -148,9 +151,6 @@ export default {};
   display: flex;
   flex-direction: column;
   background: var(--dgrey);
-  border-radius: 10px;
-  margin-left: 2rem;
-  margin-right: 2rem;
   padding-bottom: 2rem;
   transition: all 0.3s ease-in-out;
 }
@@ -164,8 +164,6 @@ export default {};
 #feat-img {
   width: fit-content;
   height: auto;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
   filter: brightness(70%);
   transition: 0.4s all ease-in-out;
 }

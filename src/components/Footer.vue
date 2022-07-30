@@ -71,12 +71,14 @@ footer {
 #footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100% !important;
   height: fit-content;
   background-color: #171616;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 #footer {
@@ -203,7 +205,8 @@ a:active {
 #newsletter-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
 }
 #newsletter-notice {
@@ -213,10 +216,13 @@ a:active {
 }
 .center {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  padding: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 a.links {
   text-decoration: none;

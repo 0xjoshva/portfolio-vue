@@ -43,7 +43,7 @@ export default {
 #testimonial h1 {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
-    padding-top: 2rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   font-size: 4rem;
   font-weight: 700;
@@ -51,7 +51,10 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0;
+  width: 100%;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 .item {
   display: flex;
@@ -69,8 +72,8 @@ hr {
 }
 img {
   margin-right: 1rem;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   box-shadow: -2px 2px 0px 1px rgba(0, 228, 114, 1);
   -webkit-box-shadow: -2px 2px 0px 1px rgba(0, 228, 114, 1);
@@ -98,5 +101,8 @@ img {
   font-size: 3rem;
   font-weight: 700;
   }
+}
+p{
+  width: 100%;
 }
 </style>

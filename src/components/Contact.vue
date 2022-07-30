@@ -35,7 +35,9 @@ input:focus {
   width: 100%;
   height: 100vh;
   color: var(--white);
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 8rem;
 }
 
 #contact h1 {

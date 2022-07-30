@@ -42,7 +42,7 @@ input:focus {
 
 #contact h1 {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 6rem;
   color: var(--white);
 }
 #submit-btn {

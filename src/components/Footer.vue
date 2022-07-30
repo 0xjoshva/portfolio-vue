@@ -246,6 +246,18 @@ router-link.links {
   #newsletter-wrapper {
     display: none;
   }
+  .center{
+margin-left: 4rem;
+margin-right: 4rem;
+  }
+  #footer-container {
+    padding-left: 1rem;
+padding-right: 0;
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1rem;
+  }
 }
 @media only screen and (max-width: 600px) {
   #newsletter-wrapper {

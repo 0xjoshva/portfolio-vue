@@ -105,4 +105,7 @@ img {
 p{
   width: 100%;
 }
+.container{
+  margin: 0;
+}
 </style>

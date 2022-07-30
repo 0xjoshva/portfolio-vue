@@ -199,6 +199,9 @@ export default {};
 font-size: 3rem;
 width: min-content;
   }
+  #container{
+    margin:0;
+  }
 }
 
 @media only screen and (max-width: 600px) {

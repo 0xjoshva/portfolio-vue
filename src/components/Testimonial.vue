@@ -39,6 +39,8 @@ export default {
   padding-top: 6em;
   font-family: "Montserrat", sans-serif;
   padding-top: 10em;
+  padding-left: 8rem;
+
 }
 #testimonial h1 {
   color: var(--white);

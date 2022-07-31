@@ -122,6 +122,7 @@ label:focus-within > text {
     /*Tablets [601px -> 1200px]*/
     #contact{
           padding-left: 0;
+          padding-left: 3rem;
           
     }
       #email {
@@ -135,12 +136,8 @@ width: 25rem;
     margin-bottom: 3rem;
   }
     #contact h1 {
-    text-align: center;
     font-size: 7rem;
 
-  }
-  form{
-    padding-left: 3rem;
   }
 
 }
@@ -149,10 +146,7 @@ width: 25rem;
     width: 25rem;
     
   }
-  #contact h1 {
-    text-align: center;
-    
-  }
+
 }
 
 @media only screen and (max-width: 425px){
@@ -168,7 +162,6 @@ width: 18rem;
     margin-bottom: 1rem;
   }
     #contact h1 {
-    text-align: center;
     font-size: 4rem;
   }
   label{

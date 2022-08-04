@@ -107,7 +107,6 @@ export default {};
   max-width: 522px;
 
 }
-
 #feat-h2 {
   color: var(--white);
   font-family: "Montserrat", sans-serif;

@@ -201,6 +201,7 @@ label i {
   display: flex;
   flex-direction: row;
 }
+
 @media only screen and (max-width: 1200px){
   .rect {
     flex-direction: column;

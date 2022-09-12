@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/cryptoexchange.png?raw=true",
     "title": "Crypto Exchange Website",
     "text": "I created a web 3.0 inspired crypto exchange website, where users can purchase crypto and read up on trending articles in the space as of right now",
     "date": "September 2022",
@@ -87,7 +87,7 @@
   },
   {
     "id": 10,
-    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/ecommerceapp.png?raw=true",
     "title": "Ecommerce Store",
     "text": "I was paired with a teammate and we made an ecommerce store for gaming hardware",
     "date": "August 2022",

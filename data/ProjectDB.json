@@ -23,7 +23,7 @@
     "id": 3,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/cryptoexchange.png?raw=true",
     "title": "Crypto Exchange Website",
-    "text": "I created a web 3.0 inspired crypto exchange website, where users can purchase crypto and read up on trending articles in the space as of right now",
+    "text": "I created a web 3.0 inspired crypto exchange website, where users can purchase crypto and read up on trending articles",
     "date": "September 2022",
     "hosting": "https://cryptoexchange-7c1d5.web.app/",
     "repo": "https://github.com/0xjoshva/cryptoexchange",

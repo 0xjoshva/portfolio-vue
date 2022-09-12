@@ -7,7 +7,9 @@
           <!-- <i class="fa-solid fa-fire-flame-curved"></i> -->
         </div>
         <div>
-          <router-link id="btn-view" to="/projects">view all projects</router-link>
+          <router-link id="btn-view" to="/projects"
+            >view all projects</router-link
+          >
         </div>
       </div>
 
@@ -16,25 +18,32 @@
           <img src="../assets/realestate.png" alt="" id="feat-img" />
           <h2 id="feat-h2">Real Estate Website</h2>
           <p id="feat-p">
-            This project was made with goal of having a property listing website, with most of the functionality. A user can delete, sort, and add properties on the admin panel. Complete with a beautiful UI, and a filtering options on the home page.
+            This project was made with goal of having a property listing
+            website, with most of the functionality. A user can delete, sort,
+            and add properties on the admin panel. A functional UI,
+            and a filtering options on the home page.
           </p>
           <p id="date">July 2022</p>
         </div>
         <div id="feat-item">
-          <img src="../assets/blob.png" alt="" id="feat-img" />
-          <h2 id="feat-h2">Blob Portfolio</h2>
+          <img src="../assets/ecommerceapp.png" alt="" id="feat-img" />
+          <h2 id="feat-h2">Ecommerce Store</h2>
           <p id="feat-p">
-            This project was my first ever portfolio. It was created exclusively with HTML5 and CSS3 about 1 month into the course. I am proud of this project because it was a stepping stone in my journey to becoming a web developer
+            I was paired with a partner and tasked to do an ecommerce website.
+            We decided to make a store which sells electronics for gaming, such
+            as computer parts and peripherals.
           </p>
-          <p id="date">April 2022</p>
+          <p id="date">August 2022</p>
         </div>
         <div id="feat-item">
-          <img src="../assets/artgallery.png" alt="" id="feat-img" />
-          <h2 id="feat-h2">Les Chévres: Art Gallery</h2>
+          <img src="../assets/cryptoexchange.png" alt="" id="feat-img" />
+          <h2 id="feat-h2">Crypto Exchange Website</h2>
           <p id="feat-p">
-            This project was made in a group of 4. It was made using Vue.js and the goal was to make an art gallery. Where famous artist's aswell as some friends from the college could display thier drawings/sketches/paintings etc. We split the tasks amongst the group and I was responsible for the Login, Register, Admin, Gallery, and Landing pages.
+            This was my final capstone project. I decided to create a web 3.0
+            inspired crypto exchange website, where users can purchase crypto
+            and read up on trending articles.
           </p>
-          <p id="date">July 2022</p>
+          <p id="date">September 2022</p>
         </div>
       </div>
     </div>
@@ -57,7 +66,7 @@ export default {};
 #portfolio h1 {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
-    padding-top: 2rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   font-size: 4rem;
   font-weight: 700;
@@ -105,7 +114,6 @@ export default {};
   padding-top: 0.5rem;
   padding-right: 2rem;
   max-width: 522px;
-
 }
 #feat-h2 {
   color: var(--white);
@@ -187,19 +195,19 @@ export default {};
   padding-left: 2rem;
 }
 
-@media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
   #container {
     flex-direction: column;
     row-gap: 2rem;
   }
-  #portfolio h1{
+  #portfolio h1 {
     padding-left: 2rem;
-font-size: 3rem;
-width: min-content;
+    font-size: 3rem;
+    width: min-content;
   }
-  #container{
-    margin:0;
+  #container {
+    margin: 0;
   }
 }
 
@@ -209,25 +217,23 @@ width: min-content;
     flex-direction: column;
     row-gap: 2rem;
   }
-  #portfolio h1{
+  #portfolio h1 {
     padding-left: 2rem;
-font-size: 3rem;
-width: min-content;
+    font-size: 3rem;
+    width: min-content;
   }
 }
-@media only screen and (max-width: 425px){
-	/*Small smartphones [325px -> 425px]*/
-  .header-cont{
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-}
-  #portfolio h1{
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .header-cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  #portfolio h1 {
     padding-left: 0;
-font-size: 3rem;
-width: min-content;
+    font-size: 3rem;
+    width: min-content;
   }
 }
-
-
 </style>

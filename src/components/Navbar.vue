@@ -1,10 +1,9 @@
 <template>
   <nav class="sticky-top">
-    
     <div>
-    <router-link to="/" id="logo"
-      ><img src="../assets/newlogo.png" alt="logo" id="logo"
-    /></router-link>
+      <router-link to="/" id="logo"
+        ><img src="../assets/newlogo.png" alt="logo" id="logo"
+      /></router-link>
     </div>
 
     <div id="nav-links">
@@ -39,6 +38,8 @@ nav {
   padding: 20px;
   border-bottom: 1px solid var(--dgrey);
   width: 100%;
+  padding-left: 8rem;
+  padding-right: 12.5rem;
 }
 #nav-links {
   display: flex;

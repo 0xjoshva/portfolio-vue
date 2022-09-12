@@ -21,6 +21,16 @@
   },
   {
     "id": 3,
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
+    "title": "Crypto Exchange Website",
+    "text": "I created a web 3.0 inspired crypto exchange website, where users can purchase crypto and read up on trending articles in the space as of right now",
+    "date": "September 2022",
+    "hosting": "https://cryptoexchange-7c1d5.web.app/",
+    "repo": "https://github.com/0xjoshva/cryptoexchange",
+    "javascript": true
+  },
+  {
+    "id": 4,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/blob.png?raw=true",
     "title": "Blob Portfolio",
     "text": "This project was my first ever portfolio. It was created exclusively with HTML5 and CSS3 about 1 month into the course. I am proud of this project because it was a stepping stone in my journey to becoming a web developer",
@@ -29,7 +39,7 @@
     "repo": "https://github.com/0xjoshva/portfolio"
   },
   {
-    "id": 4,
+    "id": 5,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/spacex.png?raw=true",
     "title": "SpaceX Website",
     "text": "This was my first group project. We were tasked to make any website we desire and we were split into groups of 5. My team opted for a space exploration theme so that is what we did. We were each responsible for different pages, mine being the Team webpage",
@@ -38,7 +48,7 @@
     "repo": "https://github.com/0xjoshva/spacex-website"
   },
   {
-    "id": 5,
+    "id": 6,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/ramsay.png?raw=true",
     "title": "Ramsay Portfolio",
     "text": "This was my second portfolio project since joining the course. I experimented with lots of CSS tricks but in the end it was not very cohesive but I took this opportunity to learn to learn as much as I can. I learnt from all my mistakes, and I hope that my newer projects reflect that.",
@@ -47,7 +57,7 @@
     "repo": "https://github.com/0xjoshva/spotify-portfolio"
   },
   {
-    "id": 6,
+    "id": 7,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/greece.png?raw=true",
     "title": "GREECE: Holiday Bookings",
     "text": "This was my first ever project. We were tasked to make a website for our dream holiday destination. It was made using the very basics of HTML and CSS. ",
@@ -56,7 +66,7 @@
     "repo": "https://github.com/0xjoshva/holiday_destination"
   },
   {
-    "id": 7,
+    "id": 8,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/timescheme.png?raw=true",
     "title": "TIMESCHEME App",
     "text": "I was tasked to make a To-Do-List webApp. Where a user could add, delete and check off tasks.",
@@ -66,13 +76,23 @@
     "javascript": true
   },
   {
-    "id": 8,
+    "id": 9,
     "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
     "title": "  BMI Calculator",
     "text": "I created a Body Mass Index Calculator. It takes a users height and weight(Weight / Height^2) values and outputs a value reflecting your health standing.",
     "date": "June 2022",
     "hosting": "https://enchanting-cupcake-42dc52.netlify.app/",
     "repo": "https://github.com/0xjoshva/BMI_calculator",
+    "javascript": true
+  },
+  {
+    "id": 10,
+    "imageURL": "https://github.com/0xjoshva/portfolio-vue/blob/main/src/assets/bmi.png?raw=true",
+    "title": "Ecommerce Store",
+    "text": "I was paired with a teammate and we made an ecommerce store for gaming hardware",
+    "date": "August 2022",
+    "hosting": "https://ecommerce-a994b.web.app/#/",
+    "repo": "https://github.com/0xjoshva/ecommerce",
     "javascript": true
   }
 ]
